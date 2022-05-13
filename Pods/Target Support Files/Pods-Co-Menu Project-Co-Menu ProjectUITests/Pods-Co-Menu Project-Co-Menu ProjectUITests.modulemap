@@ -1,0 +1,6 @@
+framework module Pods_Co_Menu_Project_Co_Menu_ProjectUITests {
+  umbrella header "Pods-Co-Menu Project-Co-Menu ProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
