@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 @main
 struct Co_Menu_ProjectApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+   
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

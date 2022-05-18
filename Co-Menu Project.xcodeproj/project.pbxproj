@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04063F1F2834C17A00282D9A /* EnterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04063F1E2834C17A00282D9A /* EnterButtonView.swift */; };
+		0409563B2832868800B1CDDA /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0409563A2832868800B1CDDA /* SnapKit.framework */; };
+		0409563E2832868B00B1CDDA /* Pods_Co_Menu_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB97B080919B65D0342EFFFC /* Pods_Co_Menu_Project.framework */; };
 		04616393282E675A00B3C977 /* Co_Menu_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04616392282E675A00B3C977 /* Co_Menu_ProjectApp.swift */; };
 		04616395282E675A00B3C977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04616394282E675A00B3C977 /* ContentView.swift */; };
 		04616397282E675D00B3C977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04616396282E675D00B3C977 /* Assets.xcassets */; };
@@ -16,8 +19,9 @@
 		046163A9282E675D00B3C977 /* Co_Menu_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046163A8282E675D00B3C977 /* Co_Menu_ProjectTests.swift */; };
 		046163B3282E675D00B3C977 /* Co_Menu_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046163B2282E675D00B3C977 /* Co_Menu_ProjectUITests.swift */; };
 		046163B5282E675D00B3C977 /* Co_Menu_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046163B4282E675D00B3C977 /* Co_Menu_ProjectUITestsLaunchTests.swift */; };
+		047B8C23283288CE00D6F50D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047B8C22283288CE00D6F50D /* GoogleService-Info.plist */; };
+		047B8C252833DBA100D6F50D /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047B8C242833DBA100D6F50D /* NameView.swift */; };
 		66AEBFD97ED945401C9A34E7 /* Pods_Co_Menu_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2577C97EC1569F7262BE24B4 /* Pods_Co_Menu_ProjectTests.framework */; };
-		CACD4F2D5F0A2234E2ADB2B8 /* Pods_Co_Menu_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB97B080919B65D0342EFFFC /* Pods_Co_Menu_Project.framework */; };
 		E05A663030DC776AE69EDDE8 /* Pods_Co_Menu_Project_Co_Menu_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993E48BF26102670A0F490D /* Pods_Co_Menu_Project_Co_Menu_ProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04063F1E2834C17A00282D9A /* EnterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterButtonView.swift; sourceTree = "<group>"; };
+		0409563A2832868800B1CDDA /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0461638F282E675A00B3C977 /* Co-Menu Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-Menu Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04616392282E675A00B3C977 /* Co_Menu_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_Menu_ProjectApp.swift; sourceTree = "<group>"; };
 		04616394282E675A00B3C977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		046163AE282E675D00B3C977 /* Co-Menu ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Co-Menu ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046163B2282E675D00B3C977 /* Co_Menu_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_Menu_ProjectUITests.swift; sourceTree = "<group>"; };
 		046163B4282E675D00B3C977 /* Co_Menu_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_Menu_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		047B8C22283288CE00D6F50D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		047B8C242833DBA100D6F50D /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
 		1AD8708B78D2135E66D7FD77 /* Pods-Co-Menu ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-Menu ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Co-Menu ProjectTests/Pods-Co-Menu ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2577C97EC1569F7262BE24B4 /* Pods_Co_Menu_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Co_Menu_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D88A0A06C3358054B7E78A /* Pods-Co-Menu ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Co-Menu ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Co-Menu ProjectTests/Pods-Co-Menu ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACD4F2D5F0A2234E2ADB2B8 /* Pods_Co_Menu_Project.framework in Frameworks */,
+				0409563B2832868800B1CDDA /* SnapKit.framework in Frameworks */,
+				0409563E2832868B00B1CDDA /* Pods_Co_Menu_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04063F202834C26F00282D9A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				04063F1E2834C17A00282D9A /* EnterButtonView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		04616386282E675A00B3C977 = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +134,11 @@
 			children = (
 				04616392282E675A00B3C977 /* Co_Menu_ProjectApp.swift */,
 				04616394282E675A00B3C977 /* ContentView.swift */,
+				047B8C242833DBA100D6F50D /* NameView.swift */,
+				047B8C22283288CE00D6F50D /* GoogleService-Info.plist */,
 				04616396282E675D00B3C977 /* Assets.xcassets */,
 				0461639B282E675D00B3C977 /* Persistence.swift */,
+				04063F202834C26F00282D9A /* CustomView */,
 				0461639D282E675D00B3C977 /* Co_Menu_Project.xcdatamodeld */,
 				04616398282E675D00B3C977 /* Preview Content */,
 			);
@@ -153,6 +173,7 @@
 		38DE06A9B70FD5A7037534DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0409563A2832868800B1CDDA /* SnapKit.framework */,
 				BB97B080919B65D0342EFFFC /* Pods_Co_Menu_Project.framework */,
 				8993E48BF26102670A0F490D /* Pods_Co_Menu_Project_Co_Menu_ProjectUITests.framework */,
 				2577C97EC1569F7262BE24B4 /* Pods_Co_Menu_ProjectTests.framework */,
@@ -284,6 +305,7 @@
 			files = (
 				0461639A282E675D00B3C977 /* Preview Assets.xcassets in Resources */,
 				04616397282E675D00B3C977 /* Assets.xcassets in Resources */,
+				047B8C23283288CE00D6F50D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +434,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0461639F282E675D00B3C977 /* Co_Menu_Project.xcdatamodeld in Sources */,
+				04063F1F2834C17A00282D9A /* EnterButtonView.swift in Sources */,
 				0461639C282E675D00B3C977 /* Persistence.swift in Sources */,
+				047B8C252833DBA100D6F50D /* NameView.swift in Sources */,
 				04616395282E675A00B3C977 /* ContentView.swift in Sources */,
 				04616393282E675A00B3C977 /* Co_Menu_ProjectApp.swift in Sources */,
 			);
@@ -569,7 +593,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 330E73427E22868AFEB56CEB /* Pods-Co-Menu Project.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,7 +604,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -592,7 +615,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -600,7 +623,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCB667FA420CED535ACDEED8 /* Pods-Co-Menu Project.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,7 +634,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -623,7 +645,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
