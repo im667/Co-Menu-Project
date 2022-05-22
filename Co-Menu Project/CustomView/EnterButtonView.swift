@@ -10,16 +10,20 @@ import SwiftUI
 struct EnterButtonView: View {
     var body: some View {
         VStack {
-            Text("확인")
-                .fontWeight(.bold)
-                .font(.system(size: 16))
-                .lineLimit(0)
-                .multilineTextAlignment(.center)
-                .foregroundColor(.white)
+            Button (action: {
+                print("Next")
+            }){
+                Text("확인")
+                    .fontWeight(.bold)
+                    .font(.system(size: 16))
+                    .lineLimit(0)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.white)
+            }
+                .frame(width: 320, height: 52, alignment: .center)
+                .background(.black)
+                .cornerRadius(10)
         }
-            .frame(width: 320, height: 52, alignment: .center)
-            .background(.black)
-            .cornerRadius(10)
     }
 }
 
