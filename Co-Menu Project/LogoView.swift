@@ -30,8 +30,6 @@ struct InsertImageView_Previews: PreviewProvider {
 
 struct addImageView: View {
     
-    @State var name: String = ""
-    
     var body: some View {
         VStack(alignment: .center){
            

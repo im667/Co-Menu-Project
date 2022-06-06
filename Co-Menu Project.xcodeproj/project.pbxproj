@@ -14,6 +14,8 @@
 		04063F282835F18A00282D9A /* FontColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04063F272835F18A00282D9A /* FontColorView.swift */; };
 		0409563B2832868800B1CDDA /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0409563A2832868800B1CDDA /* SnapKit.framework */; };
 		0409563E2832868B00B1CDDA /* Pods_Co_Menu_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB97B080919B65D0342EFFFC /* Pods_Co_Menu_Project.framework */; };
+		04531E97284C624C009E8EBD /* MakeCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04531E96284C624B009E8EBD /* MakeCategoryView.swift */; };
+		04531E99284DA561009E8EBD /* MakeFirstMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04531E98284DA560009E8EBD /* MakeFirstMenuView.swift */; };
 		04616393282E675A00B3C977 /* Co_Menu_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04616392282E675A00B3C977 /* Co_Menu_ProjectApp.swift */; };
 		04616395282E675A00B3C977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04616394282E675A00B3C977 /* ContentView.swift */; };
 		04616397282E675D00B3C977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04616396282E675D00B3C977 /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 		04063F252835F18000282D9A /* BackgroundColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorView.swift; sourceTree = "<group>"; };
 		04063F272835F18A00282D9A /* FontColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontColorView.swift; sourceTree = "<group>"; };
 		0409563A2832868800B1CDDA /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04531E96284C624B009E8EBD /* MakeCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCategoryView.swift; sourceTree = "<group>"; };
+		04531E98284DA560009E8EBD /* MakeFirstMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeFirstMenuView.swift; sourceTree = "<group>"; };
 		0461638F282E675A00B3C977 /* Co-Menu Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Co-Menu Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04616392282E675A00B3C977 /* Co_Menu_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Co_Menu_ProjectApp.swift; sourceTree = "<group>"; };
 		04616394282E675A00B3C977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 				04063F212834E0AF00282D9A /* LogoView.swift */,
 				04063F252835F18000282D9A /* BackgroundColorView.swift */,
 				04063F272835F18A00282D9A /* FontColorView.swift */,
+				04531E96284C624B009E8EBD /* MakeCategoryView.swift */,
+				04531E98284DA560009E8EBD /* MakeFirstMenuView.swift */,
 				04063F232834E72300282D9A /* GoogleService-Info.plist */,
 				04616396282E675D00B3C977 /* Assets.xcassets */,
 				0461639B282E675D00B3C977 /* Persistence.swift */,
@@ -448,9 +454,11 @@
 				04063F282835F18A00282D9A /* FontColorView.swift in Sources */,
 				0461639C282E675D00B3C977 /* Persistence.swift in Sources */,
 				047B8C252833DBA100D6F50D /* NameView.swift in Sources */,
+				04531E97284C624C009E8EBD /* MakeCategoryView.swift in Sources */,
 				04616395282E675A00B3C977 /* ContentView.swift in Sources */,
 				04063F262835F18000282D9A /* BackgroundColorView.swift in Sources */,
 				04616393282E675A00B3C977 /* Co_Menu_ProjectApp.swift in Sources */,
+				04531E99284DA561009E8EBD /* MakeFirstMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
